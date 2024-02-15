@@ -1,0 +1,56 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+.navbar-brand {
+    font-size: 28px;
+    font-weight: bold;
+}
+.front-page {
+    font-size: 18px;
+    a {
+        color: black;
+        font-weight: bold;
+        &:hover {
+            color: #505050;
+        }
+        &:visited {
+            color: transparent;
+        }
+    }
+    h1 {
+        padding: 5px 0 20px;
+        border-bottom: 1px solid #ddd;
+        margin-bottom: 20px;
+    }
+}
+
+.btn-auth-box {
+    padding: 50px 0;
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+
+    a {
+        font-weight: normal;
+        text-decoration: none;
+        border: 1px solid #505050;
+        padding: 10px 20px;
+        border-radius: 10px;
+        &:hover {
+            background-color: #ddd;
+        }
+    }
+}
+.info {
+    padding: 20px 0;
+    font-size: 14px;
+    li {
+        list-style: none;
+    }
+}
